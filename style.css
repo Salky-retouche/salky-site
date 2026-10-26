@@ -16,7 +16,7 @@
 .hero-art .circle-one {
   display: block !important;
   background: radial-gradient(circle at 38% 30%, #a9e0e5 0%, #78c8d3 45%, #5daebf 76%, #5daebf99 100%) !important;
-  width: min(440px, 90%);
+  width: min(510px, 105%);
   aspect-ratio: 1;
   height: auto;
   border-radius: 50%;
@@ -28,7 +28,7 @@
 .hero-art .circle-two {
   display: block !important;
   background: radial-gradient(circle at 40% 35%, #b4e4e6 0%, #87cbd0 55%, #6db9c5 100%) !important;
-  width: min(340px, 70%);
+  width: min(405px, 85%);
   aspect-ratio: 1;
   height: auto;
   border-radius: 50%;
@@ -73,7 +73,7 @@
 @media (max-width: 850px) {
   .hero-art { min-height: 360px; }
   .hero-art img { width: 100% !important; }
-  .hero-art .circle, .hero-art .circle-one { width: min(300px, 90%); }
-  .hero-art .circle-two { width: min(220px, 70%); }
+  .hero-art .circle, .hero-art .circle-one { width: min(350px, 100%); }
+  .hero-art .circle-two { width: min(275px, 82%); }
   .hero-art .art-stamp { right: 2%; bottom: 0; }
 }
