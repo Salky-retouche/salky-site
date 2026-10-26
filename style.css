@@ -77,3 +77,8 @@
   .hero-art .circle-two { width: min(275px, 82%); }
   .hero-art .art-stamp { right: 2%; bottom: 0; }
 }
+
+/* SALKY — grands halos lagon */
+.hero-art .circle, .hero-art .circle-one { width: 650px !important; height: 650px !important; max-width: none !important; left: 8% !important; top: 50% !important; transform: translateY(-50%); }
+.hero-art .circle-two { width: 530px !important; height: 530px !important; max-width: none !important; left: -12% !important; top: -5% !important; }
+@media (max-width: 850px) { .hero-art .circle, .hero-art .circle-one { width: 390px !important; height: 390px !important; left: 5% !important; } .hero-art .circle-two { width: 320px !important; height: 320px !important; left: -8% !important; top: 0 !important; } }
