@@ -86,3 +86,7 @@
 .contact-panel {
   display: none !important;
 }
+.contact-note + .button {
+  display: table;
+  margin-top: 28px;
+}
